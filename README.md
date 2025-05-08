@@ -7,8 +7,11 @@ This repository is designed to be your **central hub for managing Dev.to article
 
 It not only contains the Node.js command-line tool itself but also serves as the primary storage and version control system for your article content (typically within the `articles/` directory). The included CLI scripts empower you to seamlessly create, edit (in Markdown), version with Git, and publish your Dev.to articles directly from this integrated, local-first environment.
 
+<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/note.svg">
+
 This README is also intended to be interpretable by AI agents (e.g., GitHub Copilot, VSCode AI assistants) to facilitate their use of this tool.
 
+<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/notefooter.svg">
 
 
 ## Features
@@ -74,11 +77,9 @@ This README is also intended to be interpretable by AI agents (e.g., GitHub Copi
     
     Obtain your API key from your Dev.to Settings > Extensions page.
 
-    ![image](https://gist.github.com/user-attachments/assets/e54343ac-ae6d-4546-84e2-6a2e703c3312)
+    ![image](https://raw.githubusercontent.com/ken-okabe/web-images5/main/img_1746675165695.png)
 
-    
-    ![image](https://gist.github.com/user-attachments/assets/a7fbbe6c-eece-455a-b0db-6cd7e3ab8e63)
-
+    ![image](https://raw.githubusercontent.com/ken-okabe/web-images5/main/img_1746675216227.png)
 
     Set it as an OS environment variable named `DEV_TO_API_KEY`.
     
@@ -182,6 +183,14 @@ npm run article:publish
     -   `git push` the commit to the remote GitHub repository.
         
 4.  No manual Git commands are needed from the AI agent for this step. Console logs will indicate success or failure.
+
+<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/note.svg">
+
+When posting with images from a repository, the forked repository must be public because Dev.to cannot access images in private GitHub repositories.
+
+For text-only posts, the forked repository can be private as no such web links are generated. Alternatively, if images are hosted separately where Dev.to can access them, the forked repository can also remain private.
+
+<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/notefooter.svg">
     
 
 ### Checking Consistency (`article:check`)
