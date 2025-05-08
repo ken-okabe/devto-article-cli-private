@@ -17,11 +17,10 @@ This repository is designed to be your **central hub for managing Dev.to article
 
 It not only contains the Node.js command-line tool itself but also serves as the primary storage and version control system for your article content (typically within the `articles/` directory). The included CLI scripts empower you to seamlessly create, edit (in Markdown), version with Git, and publish your Dev.to articles directly from this integrated, local-first environment.
 
-<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/note.svg">
 
-This README is also intended to be interpretable by AI agents (e.g., GitHub Copilot, VSCode AI assistants) to facilitate their use of this tool.
 
-<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/notefooter.svg">
+***This README is also intended to be interpretable by AI agents (e.g., GitHub Copilot, VSCode AI assistants) to facilitate their use of this tool.***
+
 
 
 ## Features
@@ -194,13 +193,13 @@ npm run article:publish
         
 4.  No manual Git commands are needed from the AI agent for this step. Console logs will indicate success or failure.
 
-<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/note.svg">
+ 
 
-When posting with images from a repository, the forked repository must be public because Dev.to cannot access images in private GitHub repositories.
+***When posting with images from a repository, the forked repository must be public because Dev.to cannot access images in private GitHub repositories.***
 
-For text-only posts, the forked repository can be private as no such web links are generated. Alternatively, if images are hosted separately where Dev.to can access them, the forked repository can also remain private.
+***For text-only posts, the forked repository can be private as no such web links are generated. Alternatively, if images are hosted separately where Dev.to can access them, the forked repository can also remain private.***
 
-<img width="100%" src="https://raw.githubusercontent.com/ken-okabe/web-images/main/notefooter.svg">
+ 
     
 
 ### Checking Consistency (`article:check`)
