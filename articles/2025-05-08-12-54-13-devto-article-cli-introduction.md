@@ -1,15 +1,9 @@
 ---
 title: All-in-One GitHub Repository-Driven Dev.to Article Management System
-published: false
-tags:
-  - devto
-  - cli
-  - nodejs
-  - markdown
-description: >-
-  A comprehensive tool for managing Dev.to articles using GitHub repository as a
-  central hub. Write in Markdown, version with Git, and publish with simple
-  commands.
+published: true
+tags: ["devto", "cli", "nodejs", "markdown"]
+description: "A comprehensive tool for managing Dev.to articles using GitHub repository as a central hub. Write in Markdown, version with Git, and publish with simple commands."
+slug: "devto-article-cli-introduction"
 dev_to_article_id: 2467633
 ---
 
